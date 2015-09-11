@@ -1,5 +1,6 @@
-findAndReplace = function(phrase) {
+findAndReplace = function(phrase, wordToMatch) {
 
-  return phrase;
+  return phrase.includes(phrase);
+  // return phrase;
 
 }
