@@ -1,6 +1,6 @@
 # _Find and Replace_
 
-##### This app allows you to enter a string, chooses a word to find and provides a replacement for that word.
+##### This app allows you to enter a string, choose a word to find and provides a replacement for that word.
 
 #### By _**Carlo De Gregorio**_
 
