@@ -1,12 +1,12 @@
 # _Find and Replace_
 
-##### This app allows you to .....
+##### This app allows you to enter a string, chooses a word to find and provides a replacement for that word.
 
-#### By _**Yelena Nedelko**_
+#### By _**Carlo De Gregorio**_
 
 ## Description
 
-_Users can:_
+_Users can: Choose a word to find and provides a replacement for that word._
 
 * _....._
 
@@ -18,7 +18,7 @@ _Users can:_
 
 ### Legal
 
-Copyright (c) 2015 **_Yelena Nedelko_**
+Copyright (c) 2015 **_Carlo De Gregorio**
 
 This software is licensed under the MIT license.
 
