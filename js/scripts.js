@@ -10,3 +10,8 @@ findAndReplace = function(phrase, wordToReplace, replacementWord) {
 replaceWords = function(phrase, wordToReplace, replacementWord) {
   return phrase = phrase.replace(wordToReplace, replacementWord);
 }
+
+$(document).ready(function() {
+  
+
+});
