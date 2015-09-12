@@ -1,50 +1,52 @@
 <!Doctype html>
 <html>
-  <head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Find and Replace</title>
-  </head>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/slate/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Find and Replace</title>
+</head>
 
-  <body>
-    <div class="container-fluid">
-      <h1>Find & Replace</h1>
+<body class='background-image'>
+  <div >
+    <div class="container">
 
-    <div class="well well-lg">
-      <form id='find-and-replace' class="form-horizontal">
-        <fieldset>
-          <legend>The Replacer</legend>
-          <hr>
-          <div class='form-group'>
-            <label for="phrase"  class="col-lg-2 control-label">Phrase</label>
-            <div class="col-lg-10">
-              <input rows="3" id='phrase' type="text">
-            </div>
-          </div>
-          <div class='form-group'>
-            <label for="word-to-replace" class="col-lg-2 control-label">Which word would you like to replace?</label>
-            <div class="col-lg-10">
-              <input id='word-to-replace' type="text">
-            </div>
-          </div>
-          <div class='form-group'>
-            <label for="replacement-word"  class="col-lg-2 control-label">What word should I replace it with?</label>
-            <div class="col-lg-10">
-              <input id='replacement-word' type="text">
-            </div>
-          </div>
+        <h1>Find & Replace</h1>
 
-          <button type="submit" class="btn btn-lg btn-success">REPLACE</button>
-        </fieldset>
-      </form>
+        <div class="well well-sm">
+          <form id='find-and-replace' class="form-horizontal">
+            <fieldset>
+              <div class='form-group'>
+                <label for="phrase"  class="col-lg-2 control-label">Phrase</label>
+                <div class="col-lg-10">
+                  <input rows="3" id='phrase' type="text">
+                </div>
+              </div>
+              <div class='form-group'>
+                <label for="word-to-replace" class="col-lg-2 control-label">Which word would you like to replace?</label>
+                <div class="col-lg-10">
+                  <input id='word-to-replace' type="text">
+                </div>
+              </div>
+              <div class='form-group'>
+                <label for="replacement-word"  class="col-lg-2 control-label">What word should I replace it with?</label>
+                <div class="col-lg-10">
+                  <input id='replacement-word' type="text">
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-lg btn-success">REPLACE</button>
+            </fieldset>
+          </form>
+        </div>
+        <div id="result">
+          <h3>Before word replace: </h3><span class="phrase"></span><br>
+          <h2>After word replace: </h2><span class="new-phrase"></span>
+        </div>
+
     </div>
-    <div id="result">
-      <h3>Before word replace: </h3><span class="phrase"></span><br>
-      <h2>After word replace: </h2><span class="new-phrase"></span>
-    </div>
-
-  </body>
+  </div>
+</body>
 
 </html>

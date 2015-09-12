@@ -1,3 +1,16 @@
 #result {
   display: none;
 }
+
+body.background-image {
+  background-image: url(../images/replacer.jpg);
+}
+
+div.well {
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+}
+
+button {
+  opacity: 1.0;
+}
