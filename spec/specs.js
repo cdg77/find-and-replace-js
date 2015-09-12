@@ -17,3 +17,11 @@ describe('findAndReplace', function() {
   });
 
 });
+
+describe('replaceWords', function() {
+
+  it('replaces a word in a phrase with another word', function() {
+    expect(replaceWords('Time is an illusion. Reality doubly so.', 'Reality', 'Lunchtime')).to.equal('Time is an illusion. Lunchtime doubly so.')
+  });
+
+});
