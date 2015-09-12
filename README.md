@@ -1,14 +1,14 @@
 # _Find and Replace_
 
-##### This app allows you to enter a string, choose a word to find and provides a replacement for that word.
+##### This app allows you to enter a string, choose a word to find and provide a replacement for that word.
 
 #### By _**Carlo De Gregorio**_
 
 ## Description
 
-_Users can: Choose a word to find and provides a replacement for that word._
+_Users can: Choose a word  from a phrase and provide a replacement for that word. The function also checks whether the word is included in the phrase and returns an error message alerting the user if the word is not in the phrase provided. It will eventually have a working front-end allowing a user to input a phrase, specify which word out of the phrase they would like replaced. The user will also provide the replacement word. _
 
-* _....._
+* _This repo is for my educational purposes._ 
 
 
 ## Technology Used
