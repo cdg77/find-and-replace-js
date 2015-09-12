@@ -20,6 +20,10 @@ describe('findAndReplace', function() {
     expect(replaceWords('If there\'s nothing more important than my ego around, I want it caught and shot now.', 'nothing', 'anything')).to.equal('If there\'s anything more important than my ego around, I want it caught and shot now.')
   });
 
+  it('returns an error message if the replacement word is not contained within the phrase', function() {
+    expect(replaceWords('Disturbing the peace?  I got thrown out of a window!', 'nothing', 'anything')).to.equal('Uh Oh...');
+  });
+
 });
 
 describe('replaceWords', function() {
