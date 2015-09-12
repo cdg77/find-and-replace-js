@@ -1,7 +1,8 @@
-findAndReplace = function(phrase, wordToReplace) {
+findAndReplace = function(phrase, wordToReplace, replacementWord) {
 
-  return phrase.includes(wordToReplace);
-
+  if (phrase.includes(wordToReplace)) {
+    return replaceWords(phrase, wordToReplace, replacementWord);
+  }
 }
 
 replaceWords = function(phrase, wordToReplace, replacementWord) {
