@@ -16,11 +16,16 @@ $(document).ready(function() {
     var phrase = $('input#phrase').val();
     var wordToReplace = $('input#word-to-replace').val();
     var replacementWord = $('input#replacementWord').val();
-    var output = findAndReplace(phrase, wordToReplace, replacementWord);
 
-    $('.phrase')
+    var newPhrase = findAndReplace(phrase, wordToReplace, replacementWord);
+
+    $('.phrase').text(phrase);
+    $('.word-To-Replace').text(wordToReplace);
+    $('.new-phrase').text(newPhrase);
 
 
 
+    $("#result").show();
+    event.preventDefault();
   });
 });

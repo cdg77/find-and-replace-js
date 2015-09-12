@@ -20,11 +20,6 @@ describe('findAndReplace', function() {
     expect(findAndReplace('If there\'s nothing more important than my ego around, I want it caught and shot now.', 'nothing', 'anything')).to.equal('If there\'s anything more important than my ego around, I want it caught and shot now.');
   });
 
-  // it('returns an error message if the replacement word is not contained within the phrase', function() {
-  //   expect(replaceWords('Disturbing the peace?  I got thrown out of a window!','nothing', 'anything')).to.equal(replaceWords(phrase, wordToReplace, replacementWord) { return 'Uh Oh... you are trying to find a word that is not contained in the phrase'; });
-  // });
-
-
 });
 
 describe('replaceWords', function() {
