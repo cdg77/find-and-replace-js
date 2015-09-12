@@ -15,8 +15,7 @@ $(document).ready(function() {
   $('form#find-and-replace').submit(function(event) {
     var phrase = $('input#phrase').val();
     var wordToReplace = $('input#word-to-replace').val();
-    var replacementWord = $('input#replacementWord').val();
-
+    var replacementWord = $('input#replacement-word').val();
     var newPhrase = findAndReplace(phrase, wordToReplace, replacementWord);
 
     $('.phrase').text(phrase);
