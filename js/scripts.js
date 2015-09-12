@@ -12,6 +12,15 @@ replaceWords = function(phrase, wordToReplace, replacementWord) {
 }
 
 $(document).ready(function() {
-  
+  $('form#find-and-replace').submit(function(event) {
+    var phrase = $('input#phrase').val();
+    var wordToReplace = $('input#word-to-replace').val();
+    var replacementWord = $('input#replacementWord').val();
+    var output = findAndReplace(phrase, wordToReplace, replacementWord);
 
+    $('.phrase')
+
+
+
+  });
 });
