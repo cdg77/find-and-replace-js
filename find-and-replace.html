@@ -9,29 +9,40 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <h1>Find & Replace</h1>
 
-      <h4 class='text-warning'>Greetings Earthlings!</h4>
+    <div class="well well-lg">
+      <form id='find-and-replace' class="form-horizontal">
+        <fieldset>
+          <legend>The Replacer</legend>
+          <div class='form-group'>
+            <label for="phrase"  class="col-lg-2 control-label">Phrase</label>
+            <div class="col-lg-10">
+              <textarea rows="3" id='phrase' type="text"></textarea>
+            </div>
+          </div>
+          <div class='form-group'>
+            <label for="word-to-replace" class="col-lg-2 control-label">Which word would you like to replace?</label>
+            <div class="col-lg-10">
+              <input id='word-to-replace' type="text">
+            </div>
+          </div>
+          <div class='form-group'>
+            <label for="replacement-word"  class="col-lg-2 control-label">What word should I replace it with?</label>
+            <div class="col-lg-10">
+              <input id='replacement-word' type="text">
+            </div>
+          </div>
 
-      <!-- <form id="count-up-to-by">
-
-        <div class="form-group">
-          <label for="count-to">Count To:</label>
-          <input id="count-to" type="text">
-        </div>
-        <div class="form-group">
-          <label for="count-by">Count By:</label>
-          <input id="count-by" type="text">
-        </div>
-
-        <button type="submit" class="btn">Count it!</button>
+          <button type="submit" class="btn btn-lg btn-success">REPLACE</button>
+        </fieldset>
       </form>
-
-      <div id="result">
-        <h4>counting up from <strong>1</strong> to  <strong><span class="count-to text-info"></span></strong> by a multiple of: <strong><span class="count-by text-success"></span></strong>,  looks like: <strong><span class="output text-warning"></span> !</strong> </h4>
-      </div>
-    </div> -->
+    </div>
+    <div id="result">
+      <h3>Before word replace: </h3><span class="phrase"></span><br>
+      <h2>After word replace: </h2><span class="newPhrase"></span>
+    </div>
 
   </body>
 

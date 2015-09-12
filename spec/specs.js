@@ -21,8 +21,9 @@ describe('findAndReplace', function() {
   });
 
   it('returns an error message if the replacement word is not contained within the phrase', function() {
-    expect(replaceWords('Disturbing the peace?  I got thrown out of a window!', 'nothing', 'anything')).to.equal('Uh Oh...');
+    expect( 'Disturbing the peace?  I got thrown out of a window!','nothing', 'anything').to.satisfy(replaceWords(phrase, wordToReplace, replacementWord) { return 'Uh Oh... you are trying to find a word that is not contained in the phrase'; });
   });
+
 
 });
 
