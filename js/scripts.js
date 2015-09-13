@@ -19,7 +19,8 @@ $(document).ready(function() {
     var newPhrase = findAndReplace(phrase, wordToReplace, replacementWord);
 
     $('.phrase').text(phrase);
-    $('.word-To-Replace').text(wordToReplace);
+    $('.word-to-replace').text(wordToReplace);
+    $('.replacement-word').text(replacementWord);
     $('.new-phrase').text(newPhrase);
 
 
